@@ -1,7 +1,7 @@
 import { Logger } from 'tslog'
 
 export class LoggerService {
-    private logger: Logger;
+    public logger: Logger;
 
     constructor() {
         this.logger = new Logger({
